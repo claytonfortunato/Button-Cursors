@@ -14,4 +14,8 @@ export const Button = styled.button`
   backface-visibility: hidden;
 
   transition: 0.2s ease-in-out;
+
+  .loading {
+    cursor: progress;
+  }
 `;

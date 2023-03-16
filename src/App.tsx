@@ -55,7 +55,7 @@ function App() {
           Interaja com os botões e observe a mudança de aparência e de cursores
         </span>
       </C.Header>
-      <div className="grid">
+      <C.Column>
         {list.map((item, idx) => (
           <Button
             onDragStart={(e) => {
@@ -89,7 +89,7 @@ function App() {
             {item.label}
           </Button>
         ))}
-      </div>
+      </C.Column>
     </C.Container>
   );
 }
