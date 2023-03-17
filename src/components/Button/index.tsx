@@ -38,7 +38,7 @@ const Button: React.FC<ButtonProps> = ({
         <CircularProgress
           size="1.6rem"
           sx={{
-            color: "white",
+            color: "black",
           }}
         />
       )}
