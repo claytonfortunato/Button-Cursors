@@ -34,5 +34,13 @@ export const Button = styled.button<TButtonProps>`
   }
   &:disabled {
     opacity: 56%;
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+  .draggable {
+    &:hover {
+      cursor: move;
+    }
   }
 `;
