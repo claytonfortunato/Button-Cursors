@@ -36,7 +36,7 @@ const Button: React.FC<ButtonProps> = ({
     >
       {isLoading && !draggable && (
         <CircularProgress
-          size="1.6rem"
+          size="1.2rem"
           sx={{
             color: "black",
           }}
