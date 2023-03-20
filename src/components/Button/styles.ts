@@ -26,12 +26,21 @@ export const Button = styled.button<TButtonProps>`
   gap: 0.5rem;
   transition: filter 250ms;
 
+  .draggable-icon {
+    width: 20px;
+    height: 20px;
+  }
+
   &:hover {
-    filter: ${(props) => (props.hover ? "brightness(120%)" : "")};
+    filter: ${(props) => (props.hover ? "brightness(0%)" : "")};
   }
-  &:focus {
-    border: ${(props) => (props.focus ? "2px solid white" : "")};
+
+  .default {
+    &:hover {
+      cursor: pointer;
+    }
   }
+
   &:disabled {
     opacity: 56%;
     &:hover {

@@ -1,6 +1,6 @@
 import CircularProgress from "@mui/material/CircularProgress";
 import { useState } from "react";
-import DraggableIcon from "../../assets/draggableicon.svg";
+import DraggableIcon from "../../assets/drag-icon.png";
 
 import * as C from "./styles";
 
