@@ -51,4 +51,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+by Clayton Fortunato :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
